@@ -1,1 +1,52 @@
+.produit{
+    font-style:Italic;
+    color: coral;
+}
 
+.ref{
+    font-style: italic;
+    color: black;
+}
+
+.general{
+    color: blue;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.identifiant{
+    color: blue;
+    font-size: small;
+}
+
+.titre3{
+    color: red;
+    text-transform: capitalize;
+}
+
+blockquote p::first-letter{
+    color: green;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+*{
+    font-family: Verdana Arial sans-serif;
+    background-color: white;
+}
+
+h1, h2, h3{
+    font-family: Arial sans-serif;
+}
+
+.produit, .ref, .general{
+    text-transform: uppercase;
+}
+
+blockquote, p{
+    text-indent: 20px;
+}
+
+.cl10{
+    text-transform: capitalize;
+}
